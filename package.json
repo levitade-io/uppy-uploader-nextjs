@@ -1,6 +1,6 @@
 {
   "name": "@levitade/uppy-uploader-nextjs",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.0",
   "description": "Uppy uploader plugin to use with NextJS Server Actions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
