@@ -1,0 +1,35 @@
+{
+  "name": "@levitade/uppy-uploader-nextjs",
+  "version": "0.1.0",
+  "description": "Uppy uploader plugin to use with NextJS Server Actions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levitade-io/uppy-uploader-nextjs.git"
+  },
+  "keywords": [
+    "file uploader",
+    "uppy",
+    "uppy-plugin",
+    "nextjs",
+    "server actions"
+  ],
+  "author": "Bryan de Jong",
+  "bugs": {
+    "url": "https://github.com/levitade-io/uppy-uploader-nextjs/issues"
+  },
+  "homepage": "https://github.com/levitade-io/css-toolkit",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@uppy/core": "^3.12.0"
+  },
+  "peerDependencies": {
+    "@uppy/core": "^3.0.0"
+  }
+}
