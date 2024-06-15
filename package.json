@@ -8,6 +8,13 @@
     "build": "tsc",
     "clean": "rm -rf dist"
   },
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/levitade-io/uppy-uploader-nextjs/issues"
   },
-  "homepage": "https://github.com/levitade-io/css-toolkit",
+  "homepage": "https://github.com/levitade-io/uppy-uploader-nextjs",
   "devDependencies": {
     "@semantic-release/commit-analyzer": "13.0.0",
     "@semantic-release/git": "10.0.1",
